@@ -86,3 +86,5 @@ Navigate to [http://localhost:3000](http://localhost:3000) to see the Todo List 
 -Offline-first apps
 
 ### 🙋‍♂️ Author
+
+## [Agrawal Sujal](https://github.com/AgrawalSujal)
