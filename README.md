@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### ✅ Next.js Todo App – Manage Your Tasks with Simplicity
 
-## Getting Started
+## A lightweight, fast, and responsive Todo List App built with Next.js 14 and React. This modern task management solution helps users add, edit, delete, and mark tasks as complete — with localStorage support for offline persistence.
 
-First, run the development server:
+## 📋 Features
+
+-✍️ Add new tasks with a clean UI
+
+-✅ Mark tasks as completed
+
+-🗑️ Delete tasks effortlessly
+
+-💾 Persistent data with localStorage
+
+-📱 Responsive design for all devices
+
+📸 Screenshots
+✅ Todo List
+![Todo List](/public/screenshots/Todo-List.png)
+➕ Add New Task
+![Add Task](/public/screenshots/Home.png)
+✏️ Edit Task
+![Edit Task](/public/screenshots/Edit.png)
+🗑️ Delete Task
+![Delete Task](/public/screenshots/PostDelete.png)
+
+## 📁 Project Structure
+
+```plain-text
+nextjs-todo-app/
+├── app/
+│   ├── components/
+│   │   └── Navbar.js
+│   ├── AddTask.js
+│   └── TodoList.js
+├── public/
+│   └── screenshots/
+│       ├── todo-list.png
+│       └── add-task.png
+├── styles/
+│   └── globals.css
+├── package.json
+└── README.md
+
+```
+
+## 🚀 Get Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/nextjs-todo-app.git
+cd nextjs-todo-app
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 4. Open Your Browser
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Navigate to [http://localhost:3000](http://localhost:3000) to see the Todo List App in action.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🧱 Tech Stack
 
-## Learn More
+-Next.js 14
+-Tailwind CSS
+-React
 
-To learn more about Next.js, take a look at the following resources:
+### 🤖 Ideal For:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-Beginners learning Next.js or React
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+-Frontend portfolio projects
 
-## Deploy on Vercel
+-Task management system prototypes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-Offline-first apps
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🙋‍♂️ Author
